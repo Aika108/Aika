@@ -31,11 +31,11 @@
   echo $var %= 3;  echo "<br>";
   //練習問題4
   //配列内に、伊達、櫻井、伊藤、藤尾を入れて、ブラウザ上にそれぞれを表示せよ。
-  $list = array('伊達' , '櫻井' , '伊藤' , '藤尾');
-　echo $list [0];
-  echo $list [1];
-  echo $list [2];
-  echo $list [3];
+  $list = array('伊達', '櫻井', '伊藤', '藤尾');
+  echo $list[0];
+  echo $list[1];
+  echo $list[2];
+  echo $list[3];
   //練習問題5
   //連想配列内に、nameキーに'櫻井'、ageキーに'22'、placeキーに'富山'を入力して、ブラウザ上にそれぞれを表示せよ。
   $lists = array();
