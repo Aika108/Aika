@@ -41,12 +41,12 @@
   $lists = array('name' => '櫻井', 'age' => '22', 'place' =>'富山');
   echo $lists['name'];
   echo $lists['age'];
-  echo $lists['place'];
+  echo $lists['place']; echo "<br>";
   //課題1
   //西暦の計算
   //以下の配列に2つの西暦a, bがあります。その2つのaからbが何年間か出力しなさい。
   $year = array(1994, 2017);
-
+  echo $year[1]-$year[0];
   //課題2
   //かまくらづくり
   //櫻井がはしゃいでかまくらを作り始めました。どれだけの体積の雪が必要か計算しなさい。
