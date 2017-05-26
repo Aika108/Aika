@@ -35,11 +35,13 @@
   echo $list[0];
   echo $list[1];
   echo $list[2];
-  echo $list[3];
+  echo $list[3]; echo "<br>";
   //練習問題5
   //連想配列内に、nameキーに'櫻井'、ageキーに'22'、placeキーに'富山'を入力して、ブラウザ上にそれぞれを表示せよ。
-  $lists = array();
-
+  $lists = array('name' => '櫻井', 'age' => '22', 'place' =>'富山');
+  echo $lists['name'];
+  echo $lists['age'];
+  echo $lists['place'];
   //課題1
   //西暦の計算
   //以下の配列に2つの西暦a, bがあります。その2つのaからbが何年間か出力しなさい。
