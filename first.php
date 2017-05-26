@@ -3,20 +3,20 @@
   //文字列連結を用いて、自分の名前をブラウザ上に表示する。
   $first_name = 'Nitta';
   $last_name = 'Aika';
-  echo $firs_tname.$last_name
-
+  echo $first_name.$last_name;
+  echo "<br>";
   //練習問題2
   //以下の計算をそれぞれ行い、ブラウザ上に表示する。
   //8 * 3の計算
-
+  echo 8*3; echo "<br>";
   //24 / 8の計算
-
+  echo 24/8; echo "<br>";
   //6 + 10の計算
-
+  echo 6+10; echo "<br>";
   //6 - 10の計算
-
+  echo 6-10; echo "<br>";
   //10 % 7の計算
-
+  echo 10%7; echo "<br>";
   //練習問題3
   //下記のプログラムのコメント部分をそれぞれ実行し、ブラウザ上に表示する。
   //※自己代入演算子を用いること
