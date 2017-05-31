@@ -153,7 +153,7 @@
   //この配列を用いて、各都市の現在時刻を表示せよ。
   //ちなみに、今シンガポールで22:38なので、東京では0:38である。
   //for, ifのみ用いること
-  $jisa = array(6, array('tokyo', 9), array('beijing', 8), array('singapore', 7), array('london', 0), array('newyork', -5), array('singapore', '22:38'));
+  $jisa = array(5, array('tokyo', 9), array('beijing', 8), array('singapore', 7), array('london', 0), array('newyork', -5), array('singapore', '22:38'));
   //print_r($jisa);
 
   //課題7
