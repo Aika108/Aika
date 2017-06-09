@@ -83,7 +83,30 @@
     2   ->   D
     1   ->   E
   */
+ $seiseki = 'C';
 
+ switch($seiseki){
+   case 'A';
+    echo '5';
+   break;
+
+   case 'B';
+    echo '4';
+   break;
+
+   case 'C';
+    echo '3';
+   break;
+
+   case 'D':
+    echo '2';
+   break;
+
+   case 'E':
+    echo '1';
+  break;
+ }
+  echo "<br>";
   //練習問題8
   //変数$i = 10; を用意し、10から1まで1つずつカウントダウンするプログラムを作成せよ。(1つずつ改行して表示せよ)
   //この問題にはwhileを用いること
