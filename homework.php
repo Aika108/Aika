@@ -130,7 +130,10 @@
   //以下の配列を表示せよ。(1つずつ改行して表示せよ)
   //この問題にはforeachを用いること
   $food = array('carry', 'onigiri', 'candy', 'ham', 'meet', 'rice');
-
+  foreach($food as $food2){
+    echo $food2 . "<br>";
+  }
+  echo "<br>";
   //練習問題11
   //以下の変数を用いて加減乗除のそれぞれの関数を作成せよ。
   $a = 10;
