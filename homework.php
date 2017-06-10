@@ -138,7 +138,33 @@
   //以下の変数を用いて加減乗除のそれぞれの関数を作成せよ。
   $a = 10;
   $b = 5;
+  function add($a,$b){
+    $c = $a + $b;
+    return $c;
+    }
+    echo add(10,5);
+    echo "<br>";
 
+  function sub($a,$b){
+    $d = $a - $b;
+    return $d;
+  }
+    echo sub(10,5);
+    echo "<br>";
+
+  function mul($a,$b){
+    $e = $a * $b;
+    return $e;
+  }
+    echo mul(10,5);
+    echo "<br>";
+
+  function div($a,$b){
+    $f = $a / $b;
+    return $f;
+  }
+    echo div(10,5);
+    echo "<br>";
   //課題1
   //西暦の計算
   //以下の配列に2つの西暦a, bがあります。その2つのaからbが何年間か出力しなさい。
