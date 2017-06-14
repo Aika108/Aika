@@ -247,7 +247,12 @@
    echo '<br>';
   //課題7.2
   //練習問題2の関数化
-
+  function hoge2($huga1,$huga2){
+    $aaa1 = $huga1 * $huga2;
+    return $aaa1;
+  }
+   echo hoge2(8,3);
+   echo '<br>';
   //課題7.3
   //練習問題3の関数化
 
