@@ -165,7 +165,7 @@
   }
   echo div(10,5);
   echo "<br>";
-  
+
   //課題1
   //西暦の計算
   //以下の配列に2つの西暦a, bがあります。その2つのaからbが何年間か出力しなさい。
@@ -236,10 +236,15 @@
 
   //課題7
   //練習問題1~10と課題1~5を関数化せよ。
-
+   echo '<br>';
   //課題7.1
   //練習問題1の関数化
-
+  function hoge1($first_name1,$last_name1){
+    $full_name = $first_name1.$last_name1;
+    return $full_name;
+   }
+   echo hoge1('Nitta','Aika');
+   echo '<br>';
   //課題7.2
   //練習問題2の関数化
 
