@@ -250,9 +250,38 @@
   function hoge2($huga1,$huga2){
     $aaa1 = $huga1 * $huga2;
     return $aaa1;
-  }
+   }
    echo hoge2(8,3);
    echo '<br>';
+
+  function hoge3($huga3,$huga4){
+    $aaa2 = $huga3 / $huga4;
+    return $aaa2;
+  }
+    echo hoge3(24,8);
+    echo '<br>';
+
+  function hoge4($huga5,$huga6){
+    $aaa3 = $huga5 + $huga6;
+    return $aaa3;
+  }
+    echo hoge4(6,10);
+    echo '<br>';
+
+   function hoge5($huga7,$huga8){
+      $aaa4 = $huga7 - $huga8;
+      return $aaa4;
+   }
+      echo hoge5(6,10);
+      echo '<br>';
+
+    function hoge6($huga9,$huga10){
+       $aaa5 = $huga9 % $huga10;
+       return $aaa5;
+     }
+       echo hoge5(10,7);
+       echo '<br>';
+
   //課題7.3
   //練習問題3の関数化
 
