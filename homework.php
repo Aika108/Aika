@@ -284,7 +284,33 @@
 
   //課題7.3
   //練習問題3の関数化
+   function hoge7($var){
+     $aaa6 = $var + 12;
+     return $aaa6;
+   }
+    echo hoge7(2);
+    echo '<br>';
 
+   function hoge8($var){
+     $aaa7 = $var / 7;
+     return $aaa7;
+   }
+    echo hoge8(2);
+    echo '<br>';
+
+   function hoge9($var){
+     $aaa8 = $var * 5;
+     return $aaa8;
+   }
+    echo hoge9(2);
+    echo '<br>';
+
+    function hoge10($var){
+      $aaa9 = $var % 3;
+      return $aaa9;
+    }
+     echo hoge10(2);
+     echo '<br>';
   //課題7.4
   //練習問題4の関数化
 
